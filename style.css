@@ -14,28 +14,32 @@ body {
 /* Header */
 
 header {
-    background: #081b3a;
-    color: white;
-    padding: 20px 8%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #00c6ff;
-}
-
 nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 0 15px;
+    cursor: pointer;
 }
 
-nav a:hover {
-    color: #00c6ff;
+.hero::before {
+    z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
 }
 
 
