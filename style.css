@@ -42,16 +42,9 @@ nav a:hover {
 /* Hero */
 
 .hero {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    padding: 0 8%;
-    background-image: url("https://blog.udemy.com/wp-content/uploads/2025/12/how_to_get_into_digital_marketing_blog_image-1.png");
+    background-image: url("images/digital-marketing.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    color: white;
 }
 
 
