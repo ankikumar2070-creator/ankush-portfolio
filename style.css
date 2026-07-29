@@ -54,6 +54,7 @@ nav a:hover {
     color: white;
 }
 
+
 /* Dark overlay */
 .hero::before {
     content: "";
