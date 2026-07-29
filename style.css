@@ -46,7 +46,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     padding: 0 8%;
-    background-image: url("https://waterflame.in/training-institute-bhubaneswar/digital-marketing-course/digital-marketing.jpg");
+    background-image: url("https://blog.udemy.com/wp-content/uploads/2025/12/how_to_get_into_digital_marketing_blog_image-1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,8 +60,9 @@ nav a:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.50);
+    background: rgba(0,0,0,0.55);
 }
+
 
 .hero-text {
     position: relative;
